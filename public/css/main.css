@@ -12,7 +12,11 @@ body{
 	background-color: #FAFAFA;
 	font-family: 'Open Sans', sans-serif;
 }
-
+a{
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+}
 .container{
 	width: 100%;
 	margin: 0 auto;
@@ -52,7 +56,30 @@ body{
 	padding: 1px 6px;
 }
 
-
+/** Stories**/
+.stories {
+	padding: 72px 0 16px 0;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	width: 100%;
+}
+.stories .stories__thumb{
+	width: 72px;
+	height: 72px;
+	margin: 0 8px;
+	justify-content: center;
+	align-items: center;
+}
+.stories__thumb{
+	display: flex;
+	border-radius: 100%;
+	overflow: hidden;
+}
+.stories__thumb img{
+	height: 100%;
+	width: 100%;
+}
 
 
 
